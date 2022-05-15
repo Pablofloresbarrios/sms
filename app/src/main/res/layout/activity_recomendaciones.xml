@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".activity_recomendaciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            android:text="RECOMENDACIONES"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="30sp"
+            android:text="Buenas prácticas:"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/recodatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20sp"
+            android:hint="--------------------"
+            android:text=""
+            android:textSize="21sp" />
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    tools:context=".activity_detector">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DETECCION"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="10sp"
+            android:text="RESULTADO:"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20sp"
+            android:hint="Analizando..."
+            android:text=""
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="10sp"
+            android:text="DETALLES:"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/analizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="Mensaje recibido"
+            android:text="Mensaje"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="Numero telefónico de origen"
+            android:text="Número"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR MALWARE" />
+
+        <Button
+            android:id="@+id/reco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recomendaciones" />
+
+        <EditText
+            android:id="@+id/validacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
